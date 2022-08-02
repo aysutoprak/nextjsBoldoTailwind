@@ -1,0 +1,63 @@
+.header_div{
+    /* padding: 0; */
+    /* margin:0; */
+    /* height:615px; */
+    /* background-color: #0a2640; */
+    /* color: white; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.about_div{
+    /* width: 888px;;
+    height: 279px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.header_first {
+    /* font-weight: 400; */
+    /* font-size: 20px; */
+    /* line-height: 32px; */
+}
+
+.header_second{
+    /* font-weight: 400; */
+    /* font-size: 64px; */
+    /* line-height: 84px; */
+    /* text-align: center; */
+}
+
+.header_third{
+    /* text-align: center;
+    margin-top: 17.5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px; */
+}
+
+/* Tailwind */
+
+.header_div {
+    @apply p-0 m-0 h-[615px] bg-darkblue text-white flex flex-col;
+}
+
+.about_div {
+    @apply w-[888px] h-[279px] ml-auto mr-auto mt-[72px] flex flex-col items-center;
+}
+
+.header_first {
+    @apply font-normal text-[20px] leading-[32px];
+}
+
+.header_second {
+    @apply font-normal text-[64px] leading-[84px] text-center;
+}
+
+.header_third {
+    @apply text-center mt-[17px] font-normal text-[16px] leading-[28px];
+}

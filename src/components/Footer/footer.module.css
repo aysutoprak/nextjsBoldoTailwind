@@ -1,0 +1,226 @@
+/* .footer {
+    margin-top: 124px; 
+    height: 949px;
+}
+
+.call_to_action_bg {
+    margin-left: auto;
+    margin-right: auto;
+    height: 391px;
+    width: 1200px;
+    background-color: #0a2640;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.call_to_action_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 248px;
+    width: 716px;
+}
+
+.call_to_action_text {
+    color: white;
+    font-size: 48px;
+}
+
+.call_to_action_text > p {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.call_to_action_input_area {
+    margin-top: 30px;
+    width: 604px;
+    height: 60px;
+}
+
+.call_to_action_input_area input {
+    width: 370px;
+    height: 56px;
+    border-radius: 30px;
+    color: black;
+    text-indent: 30px;
+    margin-right: 10px;
+}
+
+.call_to_action_input_area input::placeholder {
+    color: black;
+    margin: 10px;
+    font-size: 18px;
+    overflow: visible;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.call_to_action_input_area button {
+    width: 219px;
+    height: 60px;
+    font-size: 18px;
+    color: #0a2640;
+    border: 3px solid #0a2640;
+    border-radius: 50em;
+    left: 450px;
+    font-weight: bold;
+    background-color: #69e6a6;
+}
+
+.footer_bottom {
+    display: flex;
+    height: 474px;
+    width: 1121px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between
+}
+
+.footer_part1_title {
+    width: 156px;
+    height: 41px;
+}
+
+.footer_part1_text1 {
+    color: gray;
+    font-size: 18px;
+}
+
+.footer_part1_text2{
+    color: gray;
+    font-size: 18px;
+    margin-top: 64px;
+}
+
+.bottom_part_left>* {
+    margin-top: 40px;
+}
+
+.bottom_part_right {
+    display: flex;
+    width: 642px;
+    height: 240px;
+    justify-content: space-between;
+    left: 479px;
+    color: gray;
+}
+
+.footer_right_title {
+    margin-bottom: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.footer_right_box {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer_right_box>p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.footer_button {
+    background-color: #69e6a6;
+    border-radius: 30px;
+    border: none;
+    margin-left: 10px;
+    width: 72px;
+    height: 30px;
+    font-family: "Open sans";
+    font-weight: bold;
+    color:#0A2640;
+} */
+
+/*Tailwind */
+
+.footer {
+    @apply mt-[124px] h-[949px];
+}
+
+.call_to_action_bg {
+    @apply ml-auto mr-auto h-[391px] w-[1200px] bg-darkblue rounded-[10px] flex justify-center items-center mb-[84px];
+}
+
+.call_to_action_div {
+    @apply flex flex-col justify-center items-center h-[248px] w-[716px];
+}
+
+.call_to_action_text {
+    @apply text-white text-[48px];
+}
+
+.call_to_action_text>p {
+    @apply font-normal text-[48px] leading-[72px] text-center;
+}
+
+.call_to_action_input_area {
+    @apply mt-[30px] w-[604px] h-[60px];
+}
+
+.call_to_action_input_area input {
+    @apply w-[370px] h-[56px] rounded-[30px] text-black indent-[30px] mr-[10px];
+}
+
+.call_to_action_input_area input::placeholder {
+    @apply text-black m-[10px] text-[20px] overflow-visible opacity-100 font-normal leading-[32px];
+}
+
+.call_to_action_input_area button {
+    @apply w-[219px] h-[60px] text-[18px] text-[#0a2640] rounded-[50em] font-bold bg-[#69e6a6]; 
+}
+
+.footer_bottom {
+    @apply flex h-[474px] w-[1121px] ml-[auto] mr-[auto] items-center justify-between;
+}
+
+.footer_part1_title {
+    @apply w-[156px] h-[41px];
+}
+
+.footer_part1_text1 {
+    @apply text-[#777777] text-[18px];
+}
+
+.footer_part1_text2 {
+    @apply text-[#777777] text-[18px] mt-[64px];
+}
+
+.bottom_part_left>* {
+    @apply mt-[40px];
+}
+
+.bottom_part_right {
+    @apply flex w-[642px] h-[240px] justify-between text-[#777777];
+}
+
+.footer_right_title {
+    @apply mb-[50px] text-black font-bold text-[20px] leading-[32px];
+}
+
+.footer_right_box {
+    @apply flex items-start flex-col gap-[40px];
+}
+
+.footer_right_box>p {
+    @apply font-normal text-[20px] leading-[32px];
+}
+
+.footer_button {
+    @apply bg-[#69e6a6] text-[13px] rounded-[30px] ml-[10px] w-[72px] h-[30px] font-bold text-darkblue border-none;
+}

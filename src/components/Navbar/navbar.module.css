@@ -1,0 +1,47 @@
+.navbar_div{
+    /* height: 98px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+}
+
+.navbar{
+    /* padding: 0; */
+    /* margin: 0; */
+    /* display: flex; */
+    /* width: 1200px; */
+    /* height: 42px; */
+}
+
+.navbar_right{
+    /* margin-left:auto; */
+    /* display: flex; */
+    /* align-items:center; */
+    /* gap:40px; */
+}
+
+.login_button{
+    /* background-color: rgb(255, 255, 255); */
+    /* width: 128px; */
+    /* height: 40px; */
+    /* border: 2px solid #FFFFFF; */
+    /* border-radius: 24px; */
+}
+
+/*Tailwind */
+
+.login_button{
+    @apply text-darkblue w-[128px] h-[40px] bg-white rounded-[24px];
+}
+
+.navbar_div{
+    @apply h-[98px] flex justify-center items-end;
+}
+
+.navbar {
+    @apply w-[1200px] h-[42px] p-0 m-0 flex;
+}
+
+.navbar_right {
+    @apply flex ml-auto gap-[40px] items-center;
+}
